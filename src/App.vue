@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SearchPage msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchPage from './components/SearchPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SearchPage
   }
 }
 </script>
@@ -21,6 +20,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+body {
+  background-color: rgb(250,250,250);
 }
 </style>
